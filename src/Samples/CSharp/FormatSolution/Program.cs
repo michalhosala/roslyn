@@ -2,6 +2,7 @@
 
 using System;
 using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CaseCorrection;
 using Microsoft.CodeAnalysis.Formatting;
 using Microsoft.CodeAnalysis.MSBuild;
 
@@ -36,6 +37,7 @@ static class Program
                 // Get a transformed version of the document (a new solution snapshot is created
                 // under the covers to contain it - none of the existing objects are modified).
                 Document newDocument = Formatter.FormatAsync(document).Result;
+                newDocument = CaseCorrector.CaseCorrectAsync(newDocument).Result;
 
                 // Store the solution implicitly constructed in the previous step as the latest
                 // one so we can continue building it up in the next iteration.
