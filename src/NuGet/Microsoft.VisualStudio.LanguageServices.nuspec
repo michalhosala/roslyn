@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Microsoft.VisualStudio.LanguageServices</id>
+    <id>AspConversion.VisualStudio.LanguageServices</id>
     <description>
       .NET Compiler Platform ("Roslyn") support for Visual Studio.
       
@@ -9,13 +9,14 @@ Supported Platforms:
 - .NET Framework 4.6
     </description>
     <dependencies>
-      <dependency id="Microsoft.CodeAnalysis" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis" version="[$version$]" />
     </dependencies>
 
     <language>en-US</language>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <version>$version$</version>
     <authors>$authors$</authors>
+    <copyright>$copyright$</copyright>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <releaseNotes>$releaseNotes$</releaseNotes>

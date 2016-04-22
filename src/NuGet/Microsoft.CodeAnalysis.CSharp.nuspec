@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Microsoft.CodeAnalysis.CSharp</id>
+    <id>AspConversion.CodeAnalysis.CSharp</id>
     <description>
       .NET Compiler Platform ("Roslyn") support for C#, Microsoft.CodeAnalysis.CSharp.dll.
       
@@ -11,13 +11,14 @@ Supported Platforms:
 - Portable Class Libraries
     </description>
     <dependencies>
-      <dependency id="Microsoft.CodeAnalysis.Common" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis.Common" version="[$version$]" />
     </dependencies>
 
     <language>en-US</language>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <version>$version$</version>
     <authors>$authors$</authors>
+    <copyright>$copyright$</copyright>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <releaseNotes>$releaseNotes$</releaseNotes>

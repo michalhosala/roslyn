@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Microsoft.CodeAnalysis.Workspaces.Common</id>
+    <id>AspConversion.CodeAnalysis.Workspaces.Common</id>
     <summary>
       A shared package used by the .NET Compiler Platform ("Roslyn") including support for analyzing projects and solutions.
     </summary>
@@ -12,7 +12,7 @@ Supported Platforms:
 - .NET Framework 4.5
     </description>
     <dependencies>
-      <dependency id="Microsoft.CodeAnalysis.Common" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis.Common" version="[$version$]" />
       <dependency id="Microsoft.Composition" version="$MicrosoftCompositionVersion$" />
     </dependencies>
 
@@ -20,6 +20,7 @@ Supported Platforms:
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <version>$version$</version>
     <authors>$authors$</authors>
+    <copyright>$copyright$</copyright>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <releaseNotes>$releaseNotes$</releaseNotes>

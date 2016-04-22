@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Microsoft.Net.Compilers.netcore</id>
+    <id>AspConversion.Net.Compilers.netcore</id>
     <description>
       CoreCLR-compatible versions of the C# and VB compilers.
 
@@ -12,13 +12,14 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <version>$version$</version>
     <authors>$authors$</authors>
+    <copyright>$copyright$</copyright>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <tags>$tags$</tags>
     <serviceable>true</serviceable>
     <dependencies>
       <group targetFramework="NETCoreApp1.0">
-        <dependency id="Microsoft.CodeAnalysis.Compilers" version="[$version$]" />
+        <dependency id="AspConversion.CodeAnalysis.Compilers" version="[$version$]" />
         <dependency id="System.AppContext"                             version="$SystemAppContextVersion$"/>
         <dependency id="System.Collections"                            version="$SystemCollectionsVersion$"/>
         <dependency id="System.Collections.Concurrent"                 version="$SystemCollectionsConcurrentVersion$"/>

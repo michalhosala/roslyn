@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Microsoft.CodeAnalysis.CSharp.Workspaces</id>
+    <id>AspConversion.CodeAnalysis.CSharp.Workspaces</id>
     <description>
       .NET Compiler Platform ("Roslyn") support for analyzing C# projects and solutions.
       
@@ -9,14 +9,15 @@ Supported Platforms:
 - .NET Framework 4.5
     </description>
     <dependencies>
-      <dependency id="Microsoft.CodeAnalysis.CSharp" version="[$version$]" />
-      <dependency id="Microsoft.CodeAnalysis.Workspaces.Common" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis.CSharp" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis.Workspaces.Common" version="[$version$]" />
     </dependencies>
 
     <language>en-US</language>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <version>$version$</version>
     <authors>$authors$</authors>
+    <copyright>$copyright$</copyright>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <releaseNotes>$releaseNotes$</releaseNotes>

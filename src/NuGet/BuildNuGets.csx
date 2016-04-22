@@ -36,7 +36,9 @@ var LicenseUrlRedist = @"http://go.microsoft.com/fwlink/?LinkId=529443";
 var LicenseUrlNonRedist = @"http://go.microsoft.com/fwlink/?LinkId=529444";
 var LicenseUrlTest = @"http://go.microsoft.com/fwlink/?LinkId=529445";
 
-var Authors = @"Microsoft";
+var Copyright = @"Copyright to included binaries is held by Microsoft, 2016. Copyright to this package is held by Concur, 2016";
+
+var Authors = @"Concur";
 var ProjectURL = @"http://msdn.com/roslyn";
 var Tags = @"Roslyn CodeAnalysis Compiler CSharp VB VisualBasic Parser Scanner Lexer Emit CodeGeneration Metadata IL Compilation Scripting Syntax Semantics";
 
@@ -139,6 +141,7 @@ int PackFiles(string[] nuspecFiles, string licenseUrl)
         $"-BasePath \"{BinDir}\" " +
         $"-OutputDirectory \"{OutDir}\" " +
         $"-prop licenseUrl=\"{licenseUrl}\" " +
+        $"-prop copyright=\"{Copyright}\" " +
         $"-prop version=\"{BuildVersion}\" " +
         $"-prop authors={Authors} " +
         $"-prop projectURL=\"{ProjectURL}\" " +

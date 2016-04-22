@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Microsoft.CodeAnalysis.Compilers</id>
+    <id>AspConversion.CodeAnalysis.Compilers</id>
     <summary>.NET Compiler Platform ("Roslyn")</summary>
     <description>
       .NET Compiler Platform ("Roslyn"). Install this package to get both C# and Visual Basic support. Install either of the dependencies directly to get one of the languages separately.
@@ -12,14 +12,15 @@ Supported Platforms:
 - Portable Class Libraries    
     </description>
     <dependencies>
-      <dependency id="Microsoft.CodeAnalysis.CSharp" version="[$version$]" />
-      <dependency id="Microsoft.CodeAnalysis.VisualBasic" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis.CSharp" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis.VisualBasic" version="[$version$]" />
     </dependencies>
 
     <language>en-US</language>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <version>$version$</version>
     <authors>$authors$</authors>
+    <copyright>$copyright$</copyright>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <releaseNotes>$releaseNotes$</releaseNotes>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Microsoft.CodeAnalysis.Scripting.Common</id>
+    <id>AspConversion.CodeAnalysis.Scripting.Common</id>
     <summary>Microsoft .NET Compiler Platform ("Roslyn") shared scripting package.</summary>
     <description>
       Microsoft .NET Compiler Platform ("Roslyn") shared scripting package. Do not install this package manually, it will be added as a prerequisite by other packages that require it.
@@ -11,13 +11,14 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <version>$version$</version>
     <authors>$authors$</authors>
+    <copyright>$copyright$</copyright>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <releaseNotes>$releaseNotes$</releaseNotes>
     <tags>$tags$</tags>
 
     <dependencies>
-      <dependency id="Microsoft.CodeAnalysis.Common"    version="[$version$]"/>
+      <dependency id="AspConversion.CodeAnalysis.Common"    version="[$version$]"/>
       <dependency id="System.AppContext"                version="$SystemAppContextVersion$"/>
       <dependency id="System.Collections"               version="$SystemCollectionsVersion$"/>
       <dependency id="System.Collections.Immutable"     version="$SystemCollectionsImmutableVersion$"/>

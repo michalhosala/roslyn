@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Microsoft.CodeAnalysis.VisualBasic.Scripting</id>
+    <id>AspConversion.CodeAnalysis.VisualBasic.Scripting</id>
     <summary>Microsoft .NET Compiler Platform ("Roslyn") Visual Basic scripting package.</summary>
     <description>
       Microsoft .NET Compiler Platform ("Roslyn") Visual Basic scripting package.
@@ -11,14 +11,15 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <version>$version$</version>
     <authors>$authors$</authors>
+    <copyright>$copyright$</copyright>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <releaseNotes>$releaseNotes$</releaseNotes>
     <tags>$tags$</tags>
     
     <dependencies>
-      <dependency id="Microsoft.CodeAnalysis.Scripting.Common" version="[$version$]" />
-      <dependency id="Microsoft.CodeAnalysis.VisualBasic" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis.Scripting.Common" version="[$version$]" />
+      <dependency id="AspConversion.CodeAnalysis.VisualBasic" version="[$version$]" />
       <dependency id="Microsoft.VisualBasic" version="$MicrosoftVisualBasicVersion$" />
     </dependencies>
   </metadata>
