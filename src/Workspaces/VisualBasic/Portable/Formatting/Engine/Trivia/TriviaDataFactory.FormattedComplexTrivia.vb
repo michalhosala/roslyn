@@ -29,9 +29,7 @@ Namespace Microsoft.CodeAnalysis.VisualBasic.Formatting
                 Me.LineBreaks = Math.Max(0, lineBreaks)
                 Me.Spaces = Math.Max(0, spaces)
 
-                Dim lines = Me.LineBreaks
-
-                _formatter = New VisualBasicTriviaFormatter(context, formattingRules, token1, token2, originalString, Math.Max(0, lines), Me.Spaces)
+                _formatter = New VisualBasicTriviaFormatter(context, formattingRules, token1, token2, originalString, Me.LineBreaks, Me.Spaces)
                 _textChanges = _formatter.FormatToTextChanges(cancellationToken)
             End Sub
 
